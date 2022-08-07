@@ -17,5 +17,9 @@ if (sentence.indexOf('esse') !== -1) {
 else{
     console.log('not available')
 }
-// endswith
-//startwith
+// endswith()
+//startwith()
+//split()
+//slice(start, end)
+//join()
+
