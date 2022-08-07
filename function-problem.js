@@ -43,7 +43,6 @@ getArraySum(myNumber);
 // array odd elemnt find and sum
 
 function arrayOdd(numbers){
-    const sum = 0;
     const oddNumber = [];
     for(let i=0; i < numbers.length; i++){
         const index = i;
@@ -68,8 +67,6 @@ function getArraySum(numbersofsum){
         sumOfOdd =sumOfOdd + elemnt;
         console.log(index, elemnt)
     }
-
     console.log( 'Sum of odd numbers:', sumOfOdd);
 }
-
 getArraySum(oddNumber);
