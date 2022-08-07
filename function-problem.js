@@ -19,3 +19,18 @@ function evenOdd(number){
     }
 }
 evenOdd(25);
+
+// array elemnt problem
+
+function getArraySum(numbers){
+    let sum = 0;
+    for(let i = 0; i < numbers.length; i++){
+        const index = i;
+        const elemnt = numbers[index];
+        sum =sum + elemnt;
+        console.log(index, elemnt, sum)
+    }
+    return sum;
+}
+const myNumber = [67, 45, 33, 66, 12, 45, 55];
+getArraySum(myNumber,);
